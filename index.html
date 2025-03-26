@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Team Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <h1>Study Fish</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+ <!--  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Our Portfolio</h2>
+      <p>We are a team of creative professionals dedicated to delivering innovative solutions.</p>
+      <a href="#portfolio" class="btn">View Our Work</a>
+    </div>
+  </section> -->
+  <section id="hero-slider" class="hero-slider">
+    <div class="slide active slide-1">
+      <h2>Innovative Solutions</h2>
+      <p>We transform ideas into digital reality.</p>
+    </div>
+    <div class="slide slide-2">
+      <h2>Creative Designs</h2>
+      <p>Our work speaks for itself.</p>
+    </div>
+    <div class="slide slide-3">
+      <h2>Expert Teamwork</h2>
+      <p>Collaboration at its best.</p>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Our Expertise</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="ne.jpg" alt="Project 1" />
+          <h3>COMPUTER NETWORKS</h3>
+         
+        </div>
+        <div class="portfolio-item">
+          <img src="web.webp" alt="Project 2" />
+          <h3>WEBSITE DEVELOPMENT AND DESIGN</h3>
+          
+        </div>
+        <div class="portfolio-item">
+          <img src="iot.jpg" alt="Project 3" />
+          <h3>INTERNET OF THINGS</h3>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          We are a group of passionate and driven 3rd-year BSIT students, each specializing in different areas of technology. As aspiring network engineers, software engineers, and website designers, we work together to bring innovative solutions to the table. Our skills in network management, software development, and web design allow us to create seamless and effective systems that meet the needs of today's tech-driven world. With a commitment to excellence and continuous learning, we are excited to shape the future of technology and contribute to impactful projects.
+        </p>
+      </div>
+    </section>
+  
+  <!-- Team Section -->
+  <!-- Team Section -->
+<section id="team" class="team">
+    <div class="container">
+      <h2>Meet the Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="james.jpg" alt="Member 1" />
+          <h3>James Roy</h3>
+          <p>Network Engineer</p>
+          <a class="btn" href="member1.html">View Portfolio</a>
+        </div>
+        <div class="team-member">
+          <img src="allen.jpeg" alt="Member 2" />
+          <h3>Allen Guillermo</h3>
+          <p>Software Engineer</p>
+          <a class="btn" href="member2.html">View Portfolio</a>
+        </div>
+        <div class="team-member">
+          <img src="un.jpg" alt="Member 3" />
+          <h3>Jayson Manalastas</h3>
+          <p>Website Designer</p>
+          <a class="btn" href="member3.html">View Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Study Fish. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
